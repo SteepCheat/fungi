@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dll_main.cpp" />
+    <ClCompile Include="hooking\functions\hk_gui_controller_ongui.cpp" />
+    <ClCompile Include="hooking\functions\hk_set_fov.cpp" />
+    <ClCompile Include="hooking\functions\hk_gui_controller_start.cpp" />
+    <ClCompile Include="hooking\functions\hk_preloader_ui_update.cpp" />
+    <ClCompile Include="hooking\functions\hk_get_skinned_mesh_renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory\crt.hpp" />
+    <ClInclude Include="memory\importer.hpp" />
+    <ClInclude Include="utility\xorstr.hpp" />
+    <ClInclude Include="sdk\mono\mono_lib.hpp" />
+    <ClInclude Include="hooking\hooking_lib.hpp" />
+    <ClInclude Include="hooking\hooks.hpp" />
+    <ClInclude Include="sdk\unity\unity.hpp" />
+    <ClInclude Include="sdk\unity\c_game_object.hpp" />
+    <ClInclude Include="sdk\unity\c_list.hpp" />
+    <ClInclude Include="sdk\unity\c_string.hpp" />
+    <ClInclude Include="sdk\unity\c_object.hpp" />
+    <ClInclude Include="sdk\unity\c_shader.hpp" />
+    <ClInclude Include="sdk\unity\c_renderer.hpp" />
+    <ClInclude Include="sdk\unity\c_material.hpp" />
+    <ClInclude Include="renderer\engine_renderer.hpp" />
+    <ClInclude Include="utility\math.hpp" />
+    <ClInclude Include="memory\memory.hpp" />
+    <ClInclude Include="sdk\unity\c_camera.hpp" />
+    <ClInclude Include="sdk\sdk.hpp" />
+    <ClInclude Include="sdk\game\c_world.hpp" />
+    <ClInclude Include="sdk\unity\c_time.hpp" />
+    <ClInclude Include="sdk\unity\c_screen.hpp" />
+    <ClInclude Include="sdk\unity\c_transform.hpp" />
+    <ClInclude Include="sdk\unity\c_math.hpp" />
+    <ClInclude Include="sdk\game\c_player.hpp" />
+    <ClInclude Include="sdk\unity\c_asset_bundle.hpp" />
+    <ClInclude Include="bundle\bundle_data.hpp" />
+    <ClInclude Include="sdk\game\c_weapon.hpp" />
+    <ClInclude Include="features\c_visuals.hpp" />
+    <ClInclude Include="features\features.hpp" />
+    <ClInclude Include="features\c_misc.hpp" />
+    <ClInclude Include="sdk\game\c_item.hpp" />
+    <ClInclude Include="sdk\game\c_loot_item.hpp" />
+  </ItemGroup>
+</Project>
